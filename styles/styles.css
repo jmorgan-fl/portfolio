@@ -1,83 +1,81 @@
 
+/* colors: rgb(4, 37, 58) darkblue -- rgb(225,221,191) tan, rgb(76,131,122) green */
+
+* {
+  box-sizing: border-box;
+}
+
+ .main-body-class {
+  box-sizing: border-box;
+  float: left;
+  width: 60%;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  background-color: rgb(225,221,191);
+  margin: 2rem;
+  align-content: space-between;
+  }
+
+.footer {
+  width: 100%;
+  padding:3rem;
+  background-color: rgb(4, 37, 58);
+  color: rgb(225,221,191);
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  align-items: center;
+  }
+
 h1 {
   width: 100%;
-  padding:5px;
-  background-color: #25619C;
-  color: white;
-  font-family: "Helvetica", sans-serif;
+  padding:3rem;
+  background-color: rgb(76,131,122);
+  color: rgb(4, 37, 58);
+  margin: 1rem;
+  font-size: 9rem;
+  font-weight: lighter;
+  text-shadow: 4px 4px 0px #eee, 6px 6px 0px #707070;
 }
 
 h2 {
-    width: 100%;
     text-align: center;
     padding:5px;
-    background-color: #4B6A8A;
+    background-color: rgb(76,131,122);
     color: white;
-    font-family: "Helvetica", sans-serif;
   }
 
 h3 {
-    width: 100%;
     text-align: center;
     padding:5px;
-    background-color: #152E47;
+    background-color: rgb(76,131,122);
     color: white;
-    font-family: "Helvetica", sans-serif;
   }
 
 h4 {
-    width: 100%;
     text-align: center;
     padding:5px;
-    background-color: #152433;
+    background-color: rgb(76,131,122);
     color: white;
-    font-family: "Helvetica", sans-serif;
   }
 
-li.list-class {
-  width: 100%;
-  padding:20px;
-  background-color: #152433;
-  color: white;
-  font-family: "Helvetica", sans-serif;
-}
-
-nav.nav-class {
-  width: 100%;
-  padding:20px;
-  background-color: #80266C8A;
-  font-family: "Helvetica", sans-serif;
-}
-
-body{
-     color: black;
-  }
-#size {
-    width: 75%;
+body {
+     color: rgb(4, 37, 58);
   }
 
-
-  a[href="file:///C:/Users/jmorgan/Desktop/first-code/index.html"] {
-    background-color: #80266C8A;
-    padding: 1rem;
-  }
-  a[href="file:///C:/Users/jmorgan/Desktop/semantic-elements/index.html"] {
-    background-color: #80266C8A;
-    padding: 1rem;
-  }
-
-
-  img {
+img {
     border-style: dashed;
-    border-color: #948CDB;
+    border-color: rgb(4, 37, 58);
     border-width: 3px;
     width:25%;
   }
 
-  p{
-    width: 100%;
-    padding:5px;
-    background-color: #D0E3F5;
-    font-family: "Helvetica", sans-serif;
-
-  }
+  
