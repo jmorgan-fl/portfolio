@@ -5,12 +5,17 @@
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+  margin: 1rem;
+}
  .main-body-class {
+  font-size: 1rem;
   box-sizing: border-box;
   float: left;
   width: 60%;
   padding-right: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   padding-left: 2rem;
   background-color: rgb(225,221,191);
   margin: 2rem;
@@ -26,6 +31,10 @@
   font-size: 1rem;
   font-weight: lighter;
   align-content: stretch;
+}
+
+p{padding: 1rem;
+  font-size: 1.5rem;
 }
 
 aside {
@@ -48,10 +57,12 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-    padding:5px;
+    float: right;
+    width: 33%;
+    padding:2px;
     background-color: rgb(76,131,122);
     color: white;
+    font-size: 2rem;
   }
 
 h3 {
@@ -61,11 +72,11 @@ h3 {
     color: white;
   }
 
-h4 {
-    text-align: center;
-    padding:5px;
+.section-class {
     background-color: rgb(76,131,122);
     color: white;
+    font-size: 1rem;
+    margin: 2rem;
   }
 
 body {
