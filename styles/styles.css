@@ -8,6 +8,7 @@
 a {
   color: white;
   margin: 1rem;
+  padding: 1rem;
 }
  .main-body-class {
   font-size: 1rem;
@@ -58,6 +59,7 @@ h1 {
 
 h2 {
     float: right;
+    align-items: flex-start;
     width: 33%;
     padding:2px;
     background-color: rgb(76,131,122);
@@ -66,7 +68,6 @@ h2 {
   }
 
 h3 {
-    text-align: center;
     padding:5px;
     background-color: rgb(76,131,122);
     color: white;
@@ -76,7 +77,8 @@ h3 {
     background-color: rgb(76,131,122);
     color: white;
     font-size: 1rem;
-    margin: 2rem;
+    margin: 1rem;
+    padding: 2rem;
   }
 
 body {
