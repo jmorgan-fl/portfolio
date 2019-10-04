@@ -1,101 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Portfolio for Jamie Morgan HTML 100</title>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-
 <style>
- ol li:nth-child(2){
-   color: pink;
- }
-
-</style>
-
+  li:nth-child(even){
+   color: rgb(52, 1, 63);
+   font-weight: 400;
+   }
+   a:hover {
+   color: rgb(52, 1, 63);
+   font-size: 2em;
+   }
+   img:hover {
+    border: 10px solid rgb(52, 1, 63);
+    }
+    img {transition: border 4s ease-in 1s;
+    }
+    a {transition: color 2s ease-in 1s;
+    }
+    article:hover {
+    border: 10px solid rgb(52, 1, 63);
+    }
+    article {transition: border 1s ease-in .5s:
+    }
+    </style>
 </head>
 
-<header> Sample Header
-</header>
-<body>
-  <h1>JAMIE'S PROJECTS</h1>
-  <p>I am brand new at learning to write HTML, but I am very excited about the possibilities!
-    Right now, I work at a fantastic eLearning company in the Professional Services group,
-    but I also have a family and enjoy photography as a side-business.
-    We enjoy the beautiful, sunny locations in Florida, but I really do miss my home state of Washington.
-  </p>
+  <body>
+      <section class="top-section-class">
+      <h1>JAMIE'S PROJECTS</h1>
+          <p class="paragraph-class">I am brand new at learning to write HTML, but I am very excited about the possibilities!
+          Right now, I work at a fantastic eLearning company in the Professional Services group,
+          but I also have a family and enjoy photography as a side-business.</p>
+          <p class="paragraph-class">We enjoy the beautiful, sunny locations in Florida, but I really do miss my home state of Washington.</p>
+      </section>
 
-    <div class="main-body-class">
-        <p>You will have to check out one or both of my first two project pages:</p>
+    <section>
+    <nav class="top-nav-bar-class">
+      <h3>About Me</h3>
+        <nav>
+          <a href=about-me.html><i class="fa fa-camera-retro fa-5x"></i></a>
+        </nav>
+    <section>
+
+<aside class="aside-class">
+    <section class="main-body-class">
+        <h4>Here are some of my projects to choose from:</h4>
         <ol>
           <li>1. First Code: This is the very first page I ever coded. You can click on the link below labeled "First Code" to see it.
           </li>
           <li>2. Random Panda: This is the second page I did.  You can click on the link below labeled "Random Panda" to see it.
           </li>
-          <li>3. Stephanie & Morgan - one of our absolute favorite weddings! So easy to photograph.
+          <li>3. Tampa Bay Watch: We have shot many weddings at this venue.
           </li>
-          <li>4. Straz Center: One of my favorite places to shoot is onstage & backstage - without a production. Talk about drama!
+          <li>4. Tampa Bay Watch: We have shot many weddings at this venue.
           </li>
-          <li>
-          </li>5. Low Light & Interior: This is probably our second-most 'proof of experience' collection that we are asked for when a client is vetting us.
-        </ol>
-      <nav>
-      <a href="https://jmorgan-fl.github.io/first-code">1. First Code</a>
-      </nav>
-      <img src="new.jpg" alt="Meme about being new.">
-        <nav>
+      </section>
 
-        <a href="https://jmorgan-fl.github.io/semantic-elements">2. Random Panda Page</a>
-        </nav>
-        <img src="panda.jpg" alt="Abstract Panda image copyright by Megapixl.com.">
+      <section class="main-body-class">
 
-        <a href="https://hippielovephotography.pixieset.com/tampabaywatch/">3. Click to view Sample Images from Tampa Bay Watch</a>
-        </nav>
-        <img src="tampa-bay-watch-sample-image.jpg" alt="Image of newly married couple kissing and smiling.">
+          <nav>
+            <a href="https://jmorgan-fl.github.io/first-code">First Code</a>
+          </nav>
 
-        <a href="https://hippielovephotography.pixieset.com/tampabaywatch/">3. Click to view a sample of assorted images on PixieSet</a>
-        </nav>
-        <img src="shoes-sample-image.jpg" alt="Image of wedding shoes and flowers.">
-    </div>
+            <img src="new.jpg" alt="Meme about being new.">
 
-<div>
-<aside class="aside-class">
-  <h2>The Photography Site:</h2>
-      <p>It needs updating!  We are using a very, very old template.
-      It just doesn't look great, we don't have recent work featured, and the template is not only old-fashioned, but also limiting.
-      You can see it for yourself at:
-      </p>
-        <nav>
-          <a href=:"http://www.hippielovephotography.com">Hippie Love Photography</a>
-        </nav>
-        <img src="hlpLOGO.jpg" alt="Hippie Love Photography logo.">
-</aside>
-</div>
+          <nav>
+            <a href="https://jmorgan-fl.github.io/semantic-elements">Random Panda Page</a>
+          </nav>
 
-    <div>
-        <section class="section-class">
-      <h3>To learn more about me, click the 'About Me' link here:</h3>
-        <nav>
-        <a href=about-me.html>About Me</a>
-      </nav>
+            <img src="panda.jpg" alt="Abstract Panda image copyright by Megapixl.com.">
+
+          <nav>
+            <a href="https://hippielovephotography.pixieset.com/tampabaywatch/">Click to view Sample Images from Tampa Bay Watch</a>
+          </nav>
+
+          <img src="tampa-bay-watch-sample-image.jpg" alt="Image of newly married couple kissing and smiling.">
+
+          <nav>
+          <a href="https://hippielovephotography.pixieset.com/tampabaywatch/">Click to view a Sample Images from Tampa Bay Watch</a>
+          </nav>
+
+            <img src="shoes-sample-image.jpg" alt="Image of wedding shoes and flowers.">
+
         </section>
+</aside>
+
+<div class="hlp-site-class">
+    <h2>The Photography Site:</h2>
+      <p>It needs updating!  We are using a very, very old template. It just doesn't look great, we don't have recent work featured, and the template is not only old-fashioned, but also limiting. You can see it for yourself at:
+      </p>
+      <nav>
+      <a href=:"http://www.hippielovephotography.com">Hippie Love Photography</a>
+      </nav>
+      <img class="logo-class" src="hlpLOGO.jpg" alt="Hippie Love Photography logo.">
   </div>
 
   <div class="footer-class">
-    <footer>
-    <i class="fa fa-camera-retro fa-5x"></i>
-    <p>If you would like to chat about photography, please email me at: </p>
-      <nav>
-        <a href="mailto:info@hippielovephotography.com">info@hippielovephotography.com.</a>
-      </nav>
-    <p>Thank you for visting my page!</p>
-    </footer>
+         <footer>
+              <p>If you would like to chat about photography, please email me: </p>
+                        <nav>
+                    <a href="mailto:info@hippielovephotography.com"> <i class="fa fa-envelope fa-5x"></i></a>
+                  </nav>
+              <p>Thank you for visting my page!</p>
+        </footer>
+      </div>
 
-  </div>
 </body>
-
 </html>
