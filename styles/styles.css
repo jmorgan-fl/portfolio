@@ -4,32 +4,32 @@
 * {
   box-sizing: border-box;
   flex-direction: column;
+  display:flex;
 }
 
-head {display: none;
+head {
+  display: none;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    color: rgb(4, 37, 58);
+  color: rgb(4, 37, 58);
   }
 
+aside {
+  width: 100%;
+}
+
 a {
-  display: flex;
   color: rgb(255,255,255);
   margin: 2rem;
   padding-bottom: 2rem;
 }
 
-.aside-class {
-    float: right;
-    width: 65%;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+.article-class {
+    color: rgb(255,255,255);
     background-color: rgb(76,131,122);
-    margin: 1rem;
     padding: 1rem;
+    margin: 1rem;
   }
 
   .hlp-site-class {
@@ -42,23 +42,18 @@ a {
     }
 
 .logo-class{
-  width: 25;
+  width: 25%;
 }
 
  .main-body-class {
-  display: flex;
-  flex-wrap: wrap;
   font-size: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
   background-color: rgb(225,221,191);
   margin: 1rem;
   align-content: space-between;
   }
 
 .footer-class {
-  display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -73,7 +68,6 @@ a {
 }
 
 p.paragraph-class {
-  display: flex;
   color: rgb(255,255,225);
   padding: 1rem;
   font-size: 1rem;
@@ -82,7 +76,6 @@ p.paragraph-class {
 }
 
 .top-section-class {
-  display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: space-between;
@@ -99,7 +92,6 @@ p.paragraph-class {
 }
 
 h1{
-  display: flex;
   font-size: 9rem;
   font-weight: lighter;
   text-shadow: 4px 4px 0px #eee, 6px 6px 0px #707070;
@@ -117,7 +109,6 @@ h1{
   }
 
 h2 {
-    display: flex;
     width: 30%;
     padding:2px;
     background-color: rgb(76,131,122);
@@ -126,23 +117,11 @@ h2 {
   }
 
 h3 {
-    display: flex;
     background-color: rgb(76,131,122);
     color: rgb(255,255,255);
-  }
-
-.section-class {
-    display: flex;
-    width: 30%;
-    background-color: rgb(76,131,122);
-    color: rgb(255,255,255);
-    font-size: 1rem;
-    margin: 1rem;
-    padding: 2rem;
   }
 
 img {
-    display: flex;
     border-style: dashed;
     border-color: rgb(4, 37, 58);
     border-width: 3px;
