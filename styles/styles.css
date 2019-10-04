@@ -3,48 +3,55 @@
 
 * {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
   color: white;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 2rem;
+  padding-bottom: 2rem;
+
 }
  .main-body-class {
+  flex-wrap: wrap;
   font-size: 1rem;
-  box-sizing: border-box;
   float: left;
-  width: 60%;
+  width: 65%;
   padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   background-color: rgb(225,221,191);
   margin: 2rem;
   align-content: space-between;
   }
 
-.footer {
+.aside-class {
+    float: right;
+    width: 30%;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    background-color: rgb(76,131,122);
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+.footer-class {
   width: 100%;
-  padding:3rem;
+  padding:2rem;
   background-color: rgb(4, 37, 58);
   color: rgb(225,221,191);
-  margin: 4rem;
+  margin: 2rem;
   font-size: 1rem;
   font-weight: lighter;
-  align-content: stretch;
 }
 
-p{padding: 1rem;
+p {padding: 1rem;
   font-size: 1.5rem;
 }
 
-aside {
-  float: right;
-  width: 30%;
-  padding-right: 2rem;
-  padding-bottom: 4rem;
-  align-items: center;
-  }
 
 h1 {
   width: 100%;
@@ -58,9 +65,7 @@ h1 {
 }
 
 h2 {
-    float: right;
-    align-items: flex-start;
-    width: 33%;
+    width: 30%;
     padding:2px;
     background-color: rgb(76,131,122);
     color: white;
@@ -68,7 +73,6 @@ h2 {
   }
 
 h3 {
-    padding:5px;
     background-color: rgb(76,131,122);
     color: white;
   }
@@ -89,5 +93,5 @@ img {
     border-style: dashed;
     border-color: rgb(4, 37, 58);
     border-width: 3px;
-    width:25%;
+    width:50%;
   }
