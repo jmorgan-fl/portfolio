@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact-Me for Jamie Morgan HTML 100</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed">
+    <link rel="stylesheet" type="text/css" href="styles/form-styles.css">
+<style>
+   input:hover {
+   background-color: rgb(225,225,225);
+   border: 10px;
+   }
+
+</style>
+</head>
+
+<body>
+  <h1>Contact Jamie Form</h1>
+    <form method="GET">
+
+      <label> Your Name:
+        <input type="text" name="YourName">
+       </label>
+
+       <label>Your email:
+         <input type="email" name="YourEmail">
+       </label>
+
+       <fieldset>
+         <legend>Are you planning a Wedding or Other type of event?</legend>
+
+         <label>
+           <input type="radio" name="special" value="wedding">Wedding
+         </label>
+         <label>
+           <input type="radio" name="special" value="other">Other
+         </label>
+       </fieldset>
+
+       <label>How many months away is your event?
+         <select name="months">
+           <option value="">Please select</option>
+           <option value="few">less than 10</option>
+           <option value="some">10 to 16</option>
+           <option value="many">more than 16</option>
+         </select>
+       </label>
+
+       <fieldset>
+         <legend>What photography services are you interested in?</legend>
+          <label>Day of Event
+            <input type="checkbox" name="type" value="day-of-event">
+          </label>
+          <label>Pre-Event Portraits
+            <input type="checkbox" name="type" value="pre-event-portraits">
+          </label>
+          <label>Family Package
+            <input type="checkbox" name="type" value="family-package">
+          </label>
+        </fieldset>
+
+        <label>How many people will be attending your event?
+          <input type="number" name="headcount">
+        </label>
+
+       <input type="submit" value="Submit Form">
+    </form>
+<section>
+  <h4>We Won't Share Your Info</h4>
+  We will not share your information with outside companies, but please do not
+  submit confidential or payment information using this form.
+</section>
+
+</body>
+</html>
